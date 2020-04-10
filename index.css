@@ -1,10 +1,10 @@
-div #menu{
-    background-color:"light-grey"
-};
-
-div #datos{
-    background-color:"#000080"
+#menu{
+    background-color:rgb(143, 64, 97);
 }
-div #configuracion{
-    background-color:"#000070"
+
+#datos{
+    background-color:rgb(10, 10, 209);
+}
+#configuracion{
+    background-color:rgb(37, 233, 200);
 }
