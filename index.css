@@ -1,10 +1,27 @@
+#container{
+    width: 100%;
+}
 #menu{
-    background-color:rgb(143, 64, 97);
+    background-color:rgb(192, 146, 165);
+    width: 100%;
+    display: block;
 }
 
-#datos{
-    background-color:rgb(10, 10, 209);
-}
 #configuracion{
-    background-color:rgb(37, 233, 200);
+    background-color:rgba(117, 170, 255, 0.863);
+    
+    display: inline-block;
+    left: initial;
+    width: 20%;
+    min-width: 100px;
+    margin: 0px;
+    border: 0px;
+}
+#datos{
+    background-color:rgb(167, 228, 218);
+    display: inline-block;
+    right: initial;
+    width: 79%;
+    margin: 0px;
+    border: 0px;
 }
