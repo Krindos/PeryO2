@@ -1,27 +1,44 @@
 #container{
     width: 100%;
+    background-color:rgb(167, 228, 218);
+    height: 100%;
 }
 #menu{
     background-color:rgb(192, 146, 165);
     width: 100%;
     display: block;
 }
-
+input{
+    width: 40px;
+}
 #configuracion{
-    background-color:rgba(117, 170, 255, 0.863);
-    
+    background-color:rgba(117, 170, 255, 0.863); 
     display: inline-block;
     left: initial;
     width: 20%;
-    min-width: 100px;
+    min-width: 200px;
     margin: 0px;
     border: 0px;
 }
 #datos{
-    background-color:rgb(167, 228, 218);
     display: inline-block;
     right: initial;
-    width: 79%;
+    min-width: 200px;
     margin: 0px;
     border: 0px;
+}
+
+@media only screen and (max-width: 400px){
+    #configuracion{
+        display: block;
+        width: 100%;
+    }
+    #datos{
+        display: block;
+        width: 100%;
+        min-width: none;
+    }
+    p{
+        width: 100%;
+    }
 }
